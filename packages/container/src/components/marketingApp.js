@@ -8,5 +8,5 @@ export default () => {
     mount(ref.current);
   });
 
-  return <div ref={ref}></div>;
+  return <div data-temp="yolo" ref={ref}></div>;
 };
